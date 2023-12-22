@@ -15,8 +15,7 @@ const Headline = styled.h1`
 export default function TitleBar() {
   return (
     <>
-      <Headline>Tourio</Headline>;
-      <h3>by Oguz Kabasakal</h3>
+      <Headline>Tourio <br></br> <small>Oguz Kabasakal</small></Headline>
     </>
   );
 }
