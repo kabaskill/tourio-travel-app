@@ -13,5 +13,10 @@ const Headline = styled.h1`
 `;
 
 export default function TitleBar() {
-  return <Headline>Tourio</Headline>;
+  return (
+    <>
+      <Headline>Tourio</Headline>;
+      <h3>by Oguz Kabasakal</h3>
+    </>
+  );
 }
